@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/Addressbook.css">
+        <title>Person Addressbook Form</title>
+    
+    </head>
+    <body>
+        <header class="header-content header">
+            <div class="logo-content">
+                <img src="./Images/images/logo.jpeg" width="50px" height="50px">
+                <div>
+                    <span class="address-text">ADDRESS</span><br>
+                    <span class="address-text address-book">BOOK</span>
+                </div>
+            </div>
+        </header>
+        <div class="form-content">
+            <form class="form" action="#" onsubmit="save()">
+                <div class="row-content"> PERSON ADDRESSBOOK FORM </div>
+                <div class="row-content">
+                    <label class="label-text" for="name">Name</label>
+                    <input class="input" type="text" name="name" id="name" placeholder="Your name...." required>
+                    <error-output class="text-error" for="text"></error-output>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
